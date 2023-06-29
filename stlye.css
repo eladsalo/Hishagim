@@ -1,0 +1,55 @@
+body {
+    background-color: #e2e3f1;
+}
+
+#mainNavbar{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5em;
+}
+
+
+
+
+#navbarMargins{
+    margin-top: 63px; /* Adjust the value based on your navbar's height */
+  }
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#headingGroup p {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+
+#secondParagrahp p {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.small-image {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+
+.content {
+    margin-top: 100px;
+}
+
+
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
